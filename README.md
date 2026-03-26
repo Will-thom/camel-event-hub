@@ -1,10 +1,21 @@
 # Camel Event Hub (Apache Camel + SQS/SNS Local)
+![Architecture](https://img.shields.io/badge/Architecture-Event%20Driven-blueviolet)
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
 ![Apache Camel](https://img.shields.io/badge/Apache%20Camel-3.x-orange)
 ![AWS](https://img.shields.io/badge/AWS-SNS%20%7C%20SQS-yellow)
 ![LocalStack](https://img.shields.io/badge/LocalStack-Enabled-purple)
 ![Docker](https://img.shields.io/badge/Docker-Required-blue)
+
+
+# About:
+
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-green)
+![Environment](https://img.shields.io/badge/Environment-Local%20AWS-blue)
+![Setup](https://img.shields.io/badge/Setup-Moderate-success)
+![Testable](https://img.shields.io/badge/Testable-100%25%20Local-important)
 
 
 ## 🛠️ Objetivo
