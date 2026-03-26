@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: camel-event-hub
+  main:
+    allow-bean-definition-overriding: true
+
+camel:
+  component:
+    aws2-sqs:
+      accessKey: "{{env:AWS_ACCESS_KEY_ID}}"
+      secretKey: "{{env:AWS_SECRET_ACCESS_KEY}}"
+      region: "{{env:AWS_REGION}}"
+      overrideEndpoint: true
+      uriEndpointOverride: "{{env:AWS_ENDPOINT_URL}}"
+    aws2-sns:
+      accessKey: "{{env:AWS_ACCESS_KEY_ID}}"
+      secretKey: "{{env:AWS_SECRET_ACCESS_KEY}}"
+      region: "{{env:AWS_REGION}}"
+      overrideEndpoint: true
+      uriEndpointOverride: "{{env:AWS_ENDPOINT_URL}}"
+
+logging:
+  level:
+    root: INFO
+    org.apache.camel: INFO
